@@ -3,7 +3,7 @@ package com.durga.collection;
 import java.util.Comparator;
 import java.util.TreeSet;
 
-public class TreeSetClass {
+public class TreeSetComparator {
 	public static void main(String args[]){
 		TreeSet t=new TreeSet(new MyComparator());
 		t.add(10);
